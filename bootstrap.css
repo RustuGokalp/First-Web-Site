@@ -1,0 +1,215 @@
+
+html {
+    font-family: 'Montserrat', sans-serif;
+}
+.bg-dark-blue {
+    background-color: darkblue;
+}
+.header {
+    font-family:'Montserrat', sans-serif ;
+    font-size: 2rem;
+    letter-spacing: 1.5px;
+    padding-top: 15px;
+}
+
+                /* NAVBAR */
+
+.container-fluid{
+    font-size: 1.5rem;
+}
+.navbar-brand {
+    margin-left: 10px;
+    font-size: 1.5rem;
+}
+.logo {
+    margin-left: 0.5rem;
+}
+.toggler {
+    list-style-type: none;
+}
+.toggleritem {
+    color: white;
+}
+
+/* INTRODUCTON */
+#home {
+    margin-top: 0.5rem;
+}
+.gokalp {
+    width: 150px;
+    height: 200px;
+    float: left;
+    margin-right: 10px;
+    margin-left: 10px;
+
+}
+.gokalp2 {
+    width: 150px;
+    height: 200px;
+    float: right;
+}
+.introduction {
+    line-height: 1.4rem;
+    letter-spacing: 0.5px;
+    font-style: italic;
+}
+.introduction p {
+    margin: 0 0.5rem;
+}
+@media (max-width:785px) {
+    .gokalp2 {
+        display: none;
+        margin: 0 auto;
+    }
+}
+
+                /* EDUCATION */
+
+.vl {
+ border-left: 2px dashed white;
+height: 200px;
+ }
+ #training h3 {
+     margin-top: 1rem;
+ }
+ .items {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.item1, .item2, .item3 {
+    margin: 0 0.5rem;
+}
+#training {
+    text-align: center;
+}
+#training .item h3 {
+    display: inline-block;
+}
+#training .item i {
+    margin-right: 0.5rem;
+}
+@media (max-width: 785px) {
+    .items { flex-direction: column; }
+    .vl { display: none;}
+}
+@media (max-width: 935px) {
+    .items { flex-direction: column; }
+    .vl { display: none;}
+}
+
+
+           /* CARDS */
+
+.card {
+    width: 18rem;
+    margin-top: 1rem;
+    margin-left: 2rem;
+    font-family: 'Montserrat' sans-serif;
+
+    
+}
+.card-img-top {
+    position: relative;
+    height: 160.88px;
+}
+.indirim {
+    position: absolute;
+    top: 2rem;
+    background-color: red;
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    opacity: 0.8;
+}
+#courses .card {
+    margin-bottom:10px; 
+}
+div.col-md {
+    padding: 0;
+    display: inline-block;
+}
+
+@media (max-width: 785px) {
+    .card {
+        margin: 0 auto;
+        margin-top: 5px;
+        
+       
+    }
+}
+
+
+                /* FORM */
+                
+.nameform, .surnameform, .emailform, .messageform {
+    display: block;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    
+}
+.form-group {
+    margin-left: 1.1rem;
+}
+.form-control {
+    margin-left: 36rem;
+    border-radius: 1rem;
+    display: inline-block;
+    margin-top: 8px;
+    width: 150px;
+    height: 47px;
+}
+form {
+    letter-spacing: 2px;
+    text-align: center;
+}
+.formcontrol {
+    padding-right: 15rem;
+}
+form input{
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+    border: 1px turquoise solid;
+}
+form input:focus {
+    outline-color: turquoise;
+}
+.messageform:focus {
+    outline-color: turquoise;
+}
+#contact ul {
+    list-style: none;
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#contact ul li a {
+padding: 1rem;
+font-size: 2.5rem;
+}
+#contact ul li a:hover {
+    opacity: 0.6;
+}
+.footbut {   
+    padding: 10px 35px;
+    margin-top: 0.5rem;
+    margin-left: 1.2rem;
+    font-size: 1rem;
+    border-radius: 10px;
+}
+.resetitem {
+    padding: 10px 45px;
+    margin-top: 0.5rem;
+    margin-left: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 2px;
+    border-radius: 10px;
+}
+.contact-form h4 {
+    margin: 10px;
+}
+.marquee {
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1px;
+}
