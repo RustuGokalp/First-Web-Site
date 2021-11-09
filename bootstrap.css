@@ -6,9 +6,8 @@ html {
     background-color: darkblue;
 }
 .header {
-    font-family:'Montserrat', sans-serif ;
     font-size: 2rem;
-    letter-spacing: 1.5px;
+    letter-spacing: 5px;
     padding-top: 15px;
 }
 
@@ -93,10 +92,7 @@ height: 200px;
     .items { flex-direction: column; }
     .vl { display: none;}
 }
-@media (max-width: 935px) {
-    .items { flex-direction: column; }
-    .vl { display: none;}
-}
+
 
 
            /* CARDS */
@@ -106,8 +102,8 @@ height: 200px;
     margin-top: 1rem;
     margin-left: 2rem;
     font-family: 'Montserrat' sans-serif;
-
-    
+    margin-right: auto;
+    margin-left: auto;
 }
 .card-img-top {
     position: relative;
@@ -134,8 +130,6 @@ div.col-md {
     .card {
         margin: 0 auto;
         margin-top: 5px;
-        
-       
     }
 }
 
