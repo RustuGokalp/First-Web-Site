@@ -23,6 +23,12 @@ html {
 .logo {
     margin-left: 0.5rem;
 }
+@media(max-width:991px) {
+    .logo {
+        width: 100px;
+        height: auto;
+    }
+}
 .toggler {
     list-style-type: none;
 }
