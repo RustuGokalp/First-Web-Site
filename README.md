@@ -7,7 +7,7 @@
 ---
 *Italic*
 **Bold**
-*** Bolditalic ***
+***Bolditalic***
 ---
 
 [Click for google](https://google.com)
