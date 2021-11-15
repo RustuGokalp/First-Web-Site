@@ -10,6 +10,6 @@
 *** Bolditalic ***
 ---
 
-[Click for google] (https://google.com)
+[Click for google](https://google.com)
 
-![Optional] (https://miro.medium.com/max/3150/2*TZeK0kyHTRHVv3gUi8BtQg.png)
+![Optional](https://miro.medium.com/max/3150/2*TZeK0kyHTRHVv3gUi8BtQg.png)
